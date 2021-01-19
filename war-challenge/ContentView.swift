@@ -31,7 +31,12 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Image("dealbutton")
+                Button(action: {
+                    print("This is DEAL button")
+                }, label: {
+                    Image("dealbutton")
+                })
+                
                 
                 Spacer()
                 
